@@ -1,0 +1,15 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+img {
+    width: 40vh;
+    border: black, 20px, solid;
+    margin: 30px;
+}
+
+#cats ul {
+
+    list-style: none;
+}
