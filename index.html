@@ -1,16 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title> Cat API Project</title>
+        <title>Cat Explorer - Discover Breeds</title>
         <link rel="stylesheet" href="css/index.css">
+        <link rel="icon" href="https://cdn-icons-png.freepik.com/256/2325/2325844.png?semt=ais_hybrid" type="image/x-icon"> 
     </head>
     <body>
-        <h1> Cat API Project</h1>
-        <p>Images & breed information</p>
-        <div id="cats">   
-            <ul>
-            </ul>
-        </div>
+        <header>
+            <h1>Welcome to the Cat Explorer! - Cats API Project</h1>
+            <h2>Discover Cat Breeds & Their Beautiful Images</h2>
+        </header>
+
+        <main>
+            <section>
+                <p>
+                    Are you a cat lover or just curious to learn more about different cat breeds? You've come to the right place! With Cat Explorer, you can dive into a world of felines from all over the globe. Simply pick a breed from the dropdown menu, and we'll fetch a gallery of images along with fascinating details about the breed. 
+                    Not sure where to begin? Use the "Show Breeds" button to browse through the various cat breeds, and get to know their traits and unique qualities. Whether you're on the hunt for your next furry companion or just exploring, this page makes it fun and informative. Happy exploring!
+                </p>
+            </section>
+
+            <nav>
+                <button id="showImages">View Images</button>
+                <button id="showBreeds"> Show Breeds</button>
+            </nav>
+
+            <br />
+
+            <section id="breedSelection">
+                <label for="breedSelect">Select a Breed:</label>
+                <select id="breedSelect">
+                    <option value="" disabled selected>Select a breed</option>
+                </select>
+            </section>
+
+            <section id="cats">
+                <ul></ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>Powered by The Cat API | All Rights Reserved</p>
+        </footer>
+
         <script src="js/index.js"></script>
     </body>
 </html>
